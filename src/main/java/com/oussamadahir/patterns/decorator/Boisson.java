@@ -1,0 +1,11 @@
+package com.oussamadahir.patterns.decorator;
+
+public abstract class Boisson {
+    protected String description = "Boisson generique";
+
+    public abstract double cout();
+
+    public String getDescription() {
+        return description;
+    }
+}
